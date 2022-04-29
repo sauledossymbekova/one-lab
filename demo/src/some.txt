@@ -1,0 +1,8 @@
+          <Profiler
+            id="language"
+            onRender={(id, phase, actualDuration) => {
+              console.log({ id, phase, actualDuration });
+            }}
+          >
+            <Languages languages={languages} />
+          </Profiler>
